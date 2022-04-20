@@ -307,7 +307,9 @@
                 <product>
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
-                    <property>fcs/elevator-pos-norm</property>
+                    <abs>
+                        <property>fcs/elevator-pos-norm</property>
+                    </abs>
                     <value>0.0300</value>
                 </product>
             </function>
@@ -509,15 +511,7 @@
                     <value>-0.0300</value>
                 </product>
             </function>
-            <function name="aero/coefficient/Cndi">
-                <description>Yaw_moment_due_to_tail_incidence</description>
-                <product>
-                    <property>aero/qbar-psf</property>
-                    <property>metrics/Sw-sqft</property>
-                    <property>metrics/bw-ft</property>
-                    <value>0.0007</value>
-                </product>
-            </function>
         </axis>
+
     </aerodynamics>
 </fdm_config>
