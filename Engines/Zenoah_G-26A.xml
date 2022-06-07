@@ -4,5 +4,5 @@
 <!-- one horsepower equals 745.69987 Watts -->
 
 <electric_engine name="electric">
-  <power unit="WATTS">  800.0 </power>
+  <power unit="WATTS">  1000.0 </power>
 </electric_engine>

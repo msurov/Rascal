@@ -126,15 +126,6 @@
                 <p_factor>1.0</p_factor>
             </thruster>
         </engine>
-        <tank type="FUEL">    <!-- Tank number 0 --> 
-            <location unit="IN">
-                <x> 36.36 </x>
-                <y> 0 </y>
-                <z> -1.89375 </z>
-            </location>
-            <capacity unit="LBS"> 1.5 </capacity>
-            <contents unit="LBS"> 1.5 </contents>
-        </tank>
     </propulsion>
 
     <flight_control name="FCS: rascal">
