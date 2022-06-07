@@ -45,7 +45,7 @@
         <iyz unit="SLUG*FT2"> 0 </iyz>
         <emptywt unit="LBS"> 13 </emptywt>
         <location name="CG" unit="IN">
-            <x> 38.2 </x>
+            <x> 37.3 </x>
             <y> 0 </y>
             <z> 4 </z>
         </location>
@@ -120,7 +120,7 @@
                 </location>
                 <orient unit="DEG">
                     <roll> 0.0 </roll>
-                    <pitch> -5.0 </pitch>
+                    <pitch> -5.2 </pitch>
                     <yaw> 0.0 </yaw>
                 </orient>
                 <p_factor>1.0</p_factor>
@@ -273,7 +273,7 @@
                     <property>aero/qbar-psf</property>
                     <property>metrics/Sw-sqft</property>
                     <property>aero/cl-squared</property>
-                    <value>0.0400</value>
+                    <value>0.0</value>
                 </product>
             </function>
             <function name="aero/coefficient/CDbeta">
@@ -455,7 +455,7 @@
                     <property>metrics/cbarw-ft</property>
                     <property>aero/ci2vel</property>
                     <property>aero/alphadot-rad_sec</property>
-                    <value>-7.0000</value>
+                    <value>0.0000</value>
                 </product>
             </function>
         </axis>
